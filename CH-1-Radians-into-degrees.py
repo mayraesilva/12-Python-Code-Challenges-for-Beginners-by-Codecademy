@@ -8,3 +8,14 @@ One hint you get is that you’ll need to use Pi in order to solve this problem.
 
 """
 
+from math import pi
+
+def randians_into_degrees(radian):
+    pi_value = pi
+    degrees = radian * 180 / pi
+
+    return f' Converting {radian} radians into degrees we have: {degrees}°'
+
+
+print(randians_into_degrees(pi/2))
+

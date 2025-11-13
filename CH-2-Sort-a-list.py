@@ -9,4 +9,10 @@ If it’s “desc,” then the list should be in descending order, and if it’s
 
 """
 
+def sort_a_list(list_to_be_rearranged, sorting_order):
+    organized_list = []
+
+    if sorting_order == 'asc':
+        for item in list_to_be_rearranged:
+            pass
 

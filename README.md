@@ -37,7 +37,7 @@ Each challenge is solved with a Python function and contains comments explaining
 
 ## 📈 Progress Tracker
 
-- [ x ] Challenge 1  
+- [x] Challenge 1  
 - [ ] Challenge 2  
 - [ ] Challenge 3  
 - [ ] Challenge 4  

@@ -10,9 +10,25 @@ If it’s “desc,” then the list should be in descending order, and if it’s
 """
 
 def sort_a_list(list_to_be_rearranged, sorting_order):
-    organized_list = []
-
+  
     if sorting_order == 'asc':
-        for item in list_to_be_rearranged:
-            pass
+        for i in range(len(list_to_be_rearranged)):
+            if i == len(list_to_be_rearranged) - 1:
+                break
+            while list_to_be_rearranged[i] > list_to_be_rearranged[i+1]:              
+                list_to_be_rearranged[i], list_to_be_rearranged[i + 1] = list_to_be_rearranged[i+1], list_to_be_rearranged[i]
+                print(list_to_be_rearranged)
+    
+    print(list_to_be_rearranged)
+        
+      
+
+
+
+
+sort_a_list([1, 2, 3, 6, 9, 8, 0, -3 ], 'asc')
+
+
+
+            
 
